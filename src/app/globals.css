@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary — Deep Green */
+  --color-primary: #002200;
+  --color-primary-light: #0a3a0a;
+  --color-primary-muted: #1a4a1a;
+
+  /* Secondary — Gold (matches logo) */
+  --color-secondary: #c4873c;
+  --color-secondary-light: #c4873c;
+  --color-secondary-muted: #c4873c;
+
+  /* Surface palette */
+  --color-surface-50: #f8f9fa;
+  --color-surface-100: #f1f3f4;
+  --color-surface-200: #e1e3e4;
+  --color-surface-300: #c4c7c9;
+  --color-surface-400: #9ea2a5;
+
+  /* Text */
+  --color-text: #002200;
+  --color-text-muted: #4a5a4a;
+  --color-text-light: #6b7b6b;
+  --color-text-on-dark: #f8f9fa;
+
+  /* Background */
+  --background: #ffffff;
+  --foreground: #002200;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  --color-primary-muted: var(--color-primary-muted);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-light: var(--color-secondary-light);
+  --color-secondary-muted: var(--color-secondary-muted);
+
+  --color-surface-50: var(--color-surface-50);
+  --color-surface-100: var(--color-surface-100);
+  --color-surface-200: var(--color-surface-200);
+  --color-surface-300: var(--color-surface-300);
+  --color-surface-400: var(--color-surface-400);
+
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-light: var(--color-text-light);
+  --color-text-on-dark: var(--color-text-on-dark);
+
+  --font-serif: var(--font-noto-serif);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* No-Line Rule: use tonal layering instead of borders */
+/* Editorial spacing utilities */
+.section-padding {
+  padding-top: clamp(2.8rem, 5.5vw, 5.5rem);
+  padding-bottom: clamp(2.8rem, 5.5vw, 5.5rem);
+}
+
+.container-editorial {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.5rem, 4vw, 4rem);
+  padding-right: clamp(1.5rem, 4vw, 4rem);
+}
+
+/* No horizontal overflow */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
