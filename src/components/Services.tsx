@@ -4,7 +4,6 @@ const services = [
   {
     href: "/kuchnie-na-wymiar-gdansk",
     title: "Kuchnie na wymiar",
-    city: "Gdańsk",
     description: "Funkcjonalne kuchnie dopasowane do Twojej przestrzeni. Meble kuchenne z najwyższej jakości materiałów.",
     icon: (
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" className="text-secondary-light">
@@ -28,7 +27,6 @@ const services = [
   {
     href: "/szafy-na-wymiar-gdansk",
     title: "Szafy na wymiar",
-    city: "Gdańsk",
     description: "Szafy wnękowe, garderoby i zabudowy. Maksymalne wykorzystanie każdego centymetra.",
     icon: (
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" className="text-secondary-light">
@@ -53,7 +51,6 @@ const services = [
   {
     href: "/meble-lazienkowe-na-wymiar-gdansk",
     title: "Meble łazienkowe",
-    city: "Gdańsk",
     description: "Szafki łazienkowe, blaty pod umywalkę i zabudowy pralki szyte na miarę.",
     icon: (
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" className="text-secondary-light">
@@ -79,7 +76,6 @@ const services = [
   {
     href: "/meble-biurowe-na-wymiar-gdansk",
     title: "Meble biurowe",
-    city: "Gdańsk",
     description: "Biurka, regały i zabudowy biurowe. Ergonomia i estetyka w miejscu pracy.",
     icon: (
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" className="text-secondary-light">
@@ -105,7 +101,6 @@ const services = [
   {
     href: "/panele-sufitowe-na-wymiar-gdansk",
     title: "Panele sufitowe",
-    city: "Gdańsk",
     description: "Sufity fornirowane, lamele drewniane, panele akustyczne. Ciepło drewna na suficie.",
     icon: (
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" className="text-secondary-light">
@@ -125,7 +120,6 @@ const services = [
   {
     href: "/panele-scienne-na-wymiar-gdansk",
     title: "Panele ścienne",
-    city: "Gdańsk",
     description: "Panele fornirowane, lamele, zabudowy ścienne. Ściana akcentowa i zabudowa TV.",
     icon: (
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" className="text-secondary-light">
@@ -174,14 +168,9 @@ export default function Services() {
                 {service.icon}
               </div>
 
-              <div className="flex items-center gap-2 mb-4">
-                <h3 className="font-serif text-lg font-semibold text-primary">
-                  {service.title}
-                </h3>
-                <span className="text-[0.65rem] uppercase tracking-[0.2em] text-text-light font-sans bg-surface-200/50 px-2 py-0.5 rounded-sm">
-                  {service.city}
-                </span>
-              </div>
+              <h3 className="font-serif text-lg font-semibold text-primary mb-4">
+                {service.title}
+              </h3>
               <p className="text-sm text-text-muted leading-relaxed font-sans mb-6">
                 {service.description}
               </p>
