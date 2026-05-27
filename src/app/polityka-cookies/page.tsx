@@ -21,7 +21,7 @@ export default function PolitykaCookiesPage() {
 
             <p className="leading-relaxed mb-6">
               Niniejsza Polityka Cookies wyjaśnia, w jaki sposób serwis{" "}
-              <strong>db-pracowniastolarska.pl</strong> wykorzystuje pliki cookies.
+              <strong>db-pracownia-stolarska.pl</strong> wykorzystuje pliki cookies.
               Administratorem danych jest:
             </p>
             <p className="leading-relaxed mb-6">

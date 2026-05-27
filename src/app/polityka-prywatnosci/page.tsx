@@ -21,7 +21,7 @@ export default function PolitykaPrywatnosciPage() {
 
             <p className="leading-relaxed mb-6">
               Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych
-              Użytkowników serwisu <strong>db-pracowniastolarska.pl</strong>, prowadzonego przez:
+              Użytkowników serwisu <strong>db-pracownia-stolarska.pl</strong>, prowadzonego przez:
             </p>
             <p className="leading-relaxed mb-6">
               <strong>D&B PRACOWNIA STOLARSKA Dmytro Ivanets</strong><br />

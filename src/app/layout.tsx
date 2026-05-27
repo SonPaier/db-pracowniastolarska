@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://db-pracowniastolarska.pl"),
+  metadataBase: new URL("https://db-pracownia-stolarska.pl"),
   title: {
     default: "D&B Pracownia Stolarska — Meble na Wymiar Gdańsk | Kuchnie, Szafy, Zabudowy",
     template: "%s | D&B Pracownia Stolarska",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pl_PL",
-    url: "https://db-pracowniastolarska.pl",
+    url: "https://db-pracownia-stolarska.pl",
     siteName: "D&B Pracownia Stolarska",
     title: "D&B Pracownia Stolarska — Meble na Wymiar Gdańsk",
     description: "Meble na wymiar Gdańsk — kuchnie, szafy, garderoby, meble łazienkowe. Własna stolarnia i lakiernia. Bezpłatny pomiar w Trójmieście.",

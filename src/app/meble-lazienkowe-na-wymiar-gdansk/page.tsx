@@ -254,9 +254,9 @@ export default function MebleLazienkoweGdanskPage() {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracowniastolarska.pl" },
-                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracowniastolarska.pl/meble-na-wymiar-gdansk" },
-                  { "@type": "ListItem", position: 3, name: "Meble łazienkowe na wymiar Gdańsk", item: "https://db-pracowniastolarska.pl/meble-lazienkowe-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracownia-stolarska.pl" },
+                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracownia-stolarska.pl/meble-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 3, name: "Meble łazienkowe na wymiar Gdańsk", item: "https://db-pracownia-stolarska.pl/meble-lazienkowe-na-wymiar-gdansk" },
                 ],
               },
             ],

@@ -488,9 +488,9 @@ export default function PaneleSciennePage() {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracowniastolarska.pl" },
-                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracowniastolarska.pl/meble-na-wymiar-gdansk" },
-                  { "@type": "ListItem", position: 3, name: "Panele ścienne Gdańsk", item: "https://db-pracowniastolarska.pl/oferta/panele-scienne-gdansk" },
+                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracownia-stolarska.pl" },
+                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracownia-stolarska.pl/meble-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 3, name: "Panele ścienne Gdańsk", item: "https://db-pracownia-stolarska.pl/oferta/panele-scienne-gdansk" },
                 ],
               },
             ],

@@ -608,10 +608,10 @@ export default function MebleNaWymiarGdanskPage() {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://db-pracowniastolarska.pl/#organization",
+                "@id": "https://db-pracownia-stolarska.pl/#organization",
                 name: "D&B Pracownia Stolarska",
                 alternateName: "Best-meble Manufaktura",
-                url: "https://db-pracowniastolarska.pl",
+                url: "https://db-pracownia-stolarska.pl",
                 telephone: "+48504688396",
                 address: {
                   "@type": "PostalAddress",
@@ -633,7 +633,7 @@ export default function MebleNaWymiarGdanskPage() {
               {
                 "@type": "Service",
                 serviceType: "Meble na wymiar",
-                provider: { "@id": "https://db-pracowniastolarska.pl/#organization" },
+                provider: { "@id": "https://db-pracownia-stolarska.pl/#organization" },
                 areaServed: [
                   { "@type": "City", name: "Gdańsk" },
                   { "@type": "City", name: "Gdynia" },
@@ -656,8 +656,8 @@ export default function MebleNaWymiarGdanskPage() {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracowniastolarska.pl" },
-                  { "@type": "ListItem", position: 2, name: "Meble na wymiar Gdańsk", item: "https://db-pracowniastolarska.pl/meble-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracownia-stolarska.pl" },
+                  { "@type": "ListItem", position: 2, name: "Meble na wymiar Gdańsk", item: "https://db-pracownia-stolarska.pl/meble-na-wymiar-gdansk" },
                 ],
               },
             ],

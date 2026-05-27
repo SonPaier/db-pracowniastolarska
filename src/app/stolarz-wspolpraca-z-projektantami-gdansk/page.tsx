@@ -527,8 +527,8 @@ export default function WspolpracaZProjektantamiPage() {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracowniastolarska.pl" },
-                  { "@type": "ListItem", position: 2, name: "Strefa Projektanta", item: "https://db-pracowniastolarska.pl/stolarz-wspolpraca-z-projektantami-gdansk" },
+                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracownia-stolarska.pl" },
+                  { "@type": "ListItem", position: 2, name: "Strefa Projektanta", item: "https://db-pracownia-stolarska.pl/stolarz-wspolpraca-z-projektantami-gdansk" },
                 ],
               },
             ],

@@ -519,9 +519,9 @@ export default function KuchnieGdanskPage() {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracowniastolarska.pl" },
-                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracowniastolarska.pl/meble-na-wymiar-gdansk" },
-                  { "@type": "ListItem", position: 3, name: "Kuchnie na wymiar Gdańsk", item: "https://db-pracowniastolarska.pl/oferta/kuchnie-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracownia-stolarska.pl" },
+                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracownia-stolarska.pl/meble-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 3, name: "Kuchnie na wymiar Gdańsk", item: "https://db-pracownia-stolarska.pl/oferta/kuchnie-na-wymiar-gdansk" },
                 ],
               },
             ],

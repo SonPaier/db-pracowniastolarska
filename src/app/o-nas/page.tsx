@@ -348,7 +348,7 @@ export default function ONasPage() {
             "@type": "LocalBusiness",
             name: "D&B Pracownia Stolarska",
             alternateName: "Best-meble Manufaktura",
-            url: "https://db-pracowniastolarska.pl",
+            url: "https://db-pracownia-stolarska.pl",
             telephone: "+48504688396",
             email: "biuro@db-pracowniastolarka.pl",
             address: {

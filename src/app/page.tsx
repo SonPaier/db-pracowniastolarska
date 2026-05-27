@@ -19,10 +19,10 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://db-pracowniastolarska.pl/#organization",
+      "@id": "https://db-pracownia-stolarska.pl/#organization",
       name: "D&B Pracownia Stolarska",
       alternateName: "Best-meble Manufaktura",
-      url: "https://db-pracowniastolarska.pl",
+      url: "https://db-pracownia-stolarska.pl",
       telephone: "+48504688396",
       address: {
         "@type": "PostalAddress",
@@ -42,7 +42,7 @@ const jsonLd = {
     {
       "@type": "Service",
       serviceType: "Meble na wymiar",
-      provider: { "@id": "https://db-pracowniastolarska.pl/#organization" },
+      provider: { "@id": "https://db-pracownia-stolarska.pl/#organization" },
       areaServed: [
         { "@type": "City", name: "Gdańsk" },
         { "@type": "City", name: "Gdynia" },
@@ -66,7 +66,7 @@ const jsonLd = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://db-pracowniastolarska.pl",
+          item: "https://db-pracownia-stolarska.pl",
         },
       ],
     },

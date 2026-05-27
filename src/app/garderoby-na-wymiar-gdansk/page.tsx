@@ -330,9 +330,9 @@ export default function GarderobyGdanskPage() {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracowniastolarska.pl" },
-                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracowniastolarska.pl/meble-na-wymiar-gdansk" },
-                  { "@type": "ListItem", position: 3, name: "Garderoby na wymiar Gdańsk", item: "https://db-pracowniastolarska.pl/oferta/garderoby-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 1, name: "Strona główna", item: "https://db-pracownia-stolarska.pl" },
+                  { "@type": "ListItem", position: 2, name: "Meble na wymiar", item: "https://db-pracownia-stolarska.pl/meble-na-wymiar-gdansk" },
+                  { "@type": "ListItem", position: 3, name: "Garderoby na wymiar Gdańsk", item: "https://db-pracownia-stolarska.pl/oferta/garderoby-na-wymiar-gdansk" },
                 ],
               },
             ],
