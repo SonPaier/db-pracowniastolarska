@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const faqs = [
   {
     question: "Ile kosztują meble na wymiar w Gdańsku?",
@@ -43,8 +45,18 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="section-padding bg-white" id="faq">
-      <div className="container-editorial">
+    <section className="section-padding bg-white relative overflow-hidden" id="faq">
+      <div className="absolute right-[-15%] top-1/2 -translate-y-1/2 pointer-events-none select-none" aria-hidden="true">
+        <Image
+          src="/logo.webp"
+          alt=""
+          width={900}
+          height={900}
+          className="w-[500px] lg:w-[900px] h-auto opacity-[0.04]"
+          loading="lazy"
+        />
+      </div>
+      <div className="container-editorial relative z-10">
         <div className="max-w-3xl mx-auto">
           <div className="mb-16">
             <p className="text-xs uppercase tracking-[0.3em] text-secondary mb-4 font-sans font-medium">

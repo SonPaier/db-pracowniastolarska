@@ -86,14 +86,28 @@ body {
   overflow-x: hidden;
 }
 
-/* Logo marquee — infinite horizontal scroll */
+/* Logo marquee — stepped slideshow (1s pause + 0.6s slide per logo) */
+/* Track contains 14 items (7 logos × 2 copies). One full cycle moves by -50% (= 7 steps). */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  0%       { transform: translateX(0); }
+  8.929%   { transform: translateX(0); }
+  14.286%  { transform: translateX(-7.143%); }
+  23.214%  { transform: translateX(-7.143%); }
+  28.571%  { transform: translateX(-14.286%); }
+  37.5%    { transform: translateX(-14.286%); }
+  42.857%  { transform: translateX(-21.429%); }
+  51.786%  { transform: translateX(-21.429%); }
+  57.143%  { transform: translateX(-28.571%); }
+  66.071%  { transform: translateX(-28.571%); }
+  71.429%  { transform: translateX(-35.714%); }
+  80.357%  { transform: translateX(-35.714%); }
+  85.714%  { transform: translateX(-42.857%); }
+  94.643%  { transform: translateX(-42.857%); }
+  100%     { transform: translateX(-50%); }
 }
 
 .animate-marquee {
-  animation: marquee 40s linear infinite;
+  animation: marquee 11.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
   will-change: transform;
 }
 
