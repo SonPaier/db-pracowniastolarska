@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import TrustedBy from "@/components/TrustedBy";
 
 export const metadata = {
   title: "O nas — D&B Pracownia Stolarska | Stolarz Gdańsk, Meble na Wymiar",
@@ -229,15 +230,12 @@ export default function ONasPage() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-6 mt-8 pt-6 border-t border-surface-200">
-                  <a href="https://www.blum.com" target="_blank" rel="noopener noreferrer"><Image src="/loga/blum.jpg" alt="Blum" width={80} height={30} className="h-6 w-auto grayscale opacity-50 mix-blend-multiply" /></a>
-                  <a href="https://www.hettich.com" target="_blank" rel="noopener noreferrer"><Image src="/loga/hettich.jpg" alt="Hettich" width={80} height={30} className="h-6 w-auto grayscale opacity-50 mix-blend-multiply" /></a>
-                  <a href="https://www.egger.com" target="_blank" rel="noopener noreferrer"><Image src="/loga/egger.png" alt="Egger" width={80} height={30} className="h-6 w-auto grayscale opacity-50 mix-blend-multiply" /></a>
-                </div>
               </div>
             </div>
           </div>
         </section>
+
+        <TrustedBy />
 
         {/* 04 — Zasięg */}
         <section className="section-padding bg-surface-50 relative overflow-hidden">
