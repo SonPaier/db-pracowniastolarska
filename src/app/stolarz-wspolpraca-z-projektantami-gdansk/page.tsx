@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import TrustedBy from "@/components/TrustedBy";
 
 export const metadata = {
   title: "Stolarz dla Architektów — Współpraca z Projektantami Gdańsk | D&B",
@@ -93,6 +94,8 @@ export default function WspolpracaZProjektantamiPage() {
             </div>
           </div>
         </section>
+
+        <TrustedBy />
 
         {/* Wzorcownia — Twój warsztat w Gdańsku */}
         <section className="section-padding bg-white">

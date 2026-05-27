@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 const logos = [
-  { name: "Häfele", src: "/loga/marki/hafele.webp", width: 701, height: 120 },
-  { name: "Blum", src: "/loga/marki/blum.webp", width: 443, height: 120 },
-  { name: "Egger", src: "/loga/marki/egger.webp", width: 320, height: 120 },
-  { name: "Eclisse", src: "/loga/marki/eclisse.webp", width: 390, height: 120 },
-  { name: "Franke", src: "/loga/marki/franke.webp", width: 382, height: 120 },
-  { name: "Peka", src: "/loga/marki/peka.webp", width: 331, height: 120 },
-  { name: "Corian", src: "/loga/marki/corian.webp", width: 172, height: 120 },
+  { name: "Häfele", src: "/loga/marki/hafele.webp", width: 701, height: 120, heightClass: "h-[48px]" },
+  { name: "Blum", src: "/loga/marki/blum.webp", width: 443, height: 120, heightClass: "h-[60px]" },
+  { name: "Egger", src: "/loga/marki/egger.webp", width: 300, height: 113, heightClass: "h-[60px]" },
+  { name: "Eclisse", src: "/loga/marki/eclisse.webp", width: 390, height: 120, heightClass: "h-[60px]" },
+  { name: "Franke", src: "/loga/marki/franke.webp", width: 382, height: 120, heightClass: "h-[60px]" },
+  { name: "Peka", src: "/loga/marki/peka.webp", width: 331, height: 120, heightClass: "h-[60px]" },
+  { name: "Corian", src: "/loga/marki/corian.webp", width: 172, height: 120, heightClass: "h-[60px]" },
 ];
 
 // Duplicate set so the keyframe -50% loops seamlessly
@@ -30,7 +30,7 @@ export default function TrustedBy() {
             "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
         }}
       >
-        <div className="flex w-max items-center gap-x-[30px] animate-marquee">
+        <div className="flex w-max items-center gap-x-[50px] animate-marquee">
           {track.map((brand, i) => (
             <Image
               key={`${brand.name}-${i}`}
@@ -40,7 +40,7 @@ export default function TrustedBy() {
               height={brand.height}
               title={brand.name}
               aria-hidden={i >= logos.length}
-              className="h-[60px] w-auto object-contain opacity-80 hover:opacity-100 transition-opacity shrink-0"
+              className={`${brand.heightClass} w-auto object-contain opacity-80 hover:opacity-100 transition-opacity shrink-0`}
             />
           ))}
         </div>
