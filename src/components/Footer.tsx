@@ -141,7 +141,7 @@ export default function Footer() {
             </h3>
             <div className="h-full min-h-[300px] rounded-sm overflow-hidden bg-primary-light">
               <iframe
-                src="https://maps.google.com/maps?q=Klonowa+2,+83-031+Cieplewo,+Polska&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=54.2494,18.6471&z=15&hl=pl&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

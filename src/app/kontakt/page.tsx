@@ -149,7 +149,7 @@ export default function KontaktPage() {
         {/* Mapa — full width */}
         <section className="relative w-full h-[50vh] lg:h-[60vh]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2326.5!2d18.567!3d54.317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDE5JzAxLjIiTiAxOMKwMzQnMDEuMiJF!5e0!3m2!1spl!2spl!4v1"
+            src="https://www.google.com/maps?q=54.2494,18.6471&z=16&hl=pl&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -167,7 +167,7 @@ export default function KontaktPage() {
               ul. Klonowa 2, 83-031 Cieplewo
             </p>
             <a
-              href="https://maps.google.com/?q=Klonowa+2,+83-031+Cieplewo"
+              href="https://maps.google.com/?q=54.2494,18.6471"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-xs font-medium text-secondary font-sans"
