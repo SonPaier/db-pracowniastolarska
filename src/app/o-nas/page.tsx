@@ -28,7 +28,7 @@ export default function ONasPage() {
                 Rzemiosło, nie fabryka.
               </h1>
               <p className="font-serif text-2xl sm:text-3xl text-secondary mb-8">
-                Stolarz z Gdańska od&nbsp;ponad 15&nbsp;lat.
+                Stolarz z Gdańska od&nbsp;ponad 10&nbsp;lat.
               </p>
               <p className="text-lg lg:text-xl text-text-on-dark/70 leading-relaxed max-w-2xl font-sans">
                 Jako lokalny stolarz z&nbsp;Gdańska, każdy projekt traktujemy
@@ -77,13 +77,15 @@ export default function ONasPage() {
               </div>
 
               <div className="lg:col-span-7 order-1 lg:order-2">
-                <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <svg className="w-16 h-16 text-surface-300 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-                    </svg>
-                    <p className="text-sm text-surface-400 font-sans">Zdjęcie ekipy D&B przy pracy</p>
-                  </div>
+                <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200">
+                  <Image
+                    src="/o-nas/warsztat-stolarski-cieplewo.webp"
+                    alt="Warsztat D&B Pracownia Stolarska w Cieplewie — zabudowa meblowa, tablica narzędzi, wiertarka Blum"
+                    fill
+                    sizes="(min-width: 1024px) 58vw, 100vw"
+                    className="object-cover"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
@@ -119,13 +121,15 @@ export default function ONasPage() {
                 </div>
 
                 <div className="lg:col-span-7">
-                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-primary-light flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <svg className="w-16 h-16 text-text-on-dark/20 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 0H21m-3.75 3H21m-3.75 3H21" />
-                      </svg>
-                      <p className="text-sm text-text-on-dark/30 font-sans">Zdjęcie hali produkcyjnej</p>
-                    </div>
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-primary-light">
+                    <Image
+                      src="/o-nas/felder-k700s-pilarka-formatowa.webp"
+                      alt="Hala produkcyjna D&B — pilarka formatowa Felder K 700 S do precyzyjnego cięcia płyt meblowych"
+                      fill
+                      sizes="(min-width: 1024px) 58vw, 100vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </div>
@@ -138,13 +142,46 @@ export default function ONasPage() {
           <div className="container-editorial">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
               <div className="lg:col-span-7">
-                <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <svg className="w-16 h-16 text-surface-300 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 010 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 010-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    <p className="text-sm text-surface-400 font-sans">Zdjęcie wzorników i maszyn</p>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200">
+                    <Image
+                      src="/o-nas/felder-fd21-wiertarka.webp"
+                      alt="Wiertarka piętrowa Felder FD 21 Professional do precyzyjnego wiercenia w drewnie i płytach meblowych"
+                      fill
+                      sizes="(min-width: 1024px) 29vw, 50vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200">
+                    <Image
+                      src="/o-nas/blum-minipress-p.webp"
+                      alt="Wiertarko-wkrętarka Blum Minipress P do montażu okuć meblowych Blum"
+                      fill
+                      sizes="(min-width: 1024px) 29vw, 50vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200">
+                    <Image
+                      src="/o-nas/lange-b85kf-okleiniarka.webp"
+                      alt="Okleiniarka prostoliniowa Lange Maschinenbau B 85 KF do oklejania krawędzi płyt meblowych"
+                      fill
+                      sizes="(min-width: 1024px) 29vw, 50vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200">
+                    <Image
+                      src="/o-nas/joos-prasa-membranowa.webp"
+                      alt="Prasa membranowa Joos do laminowania i prasowania frontów meblowych"
+                      fill
+                      sizes="(min-width: 1024px) 29vw, 50vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </div>
@@ -236,54 +273,43 @@ export default function ONasPage() {
         {/* 05 — Zapraszamy na kawę */}
         <section className="section-padding bg-white">
           <div className="container-editorial">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
-              <div className="lg:col-span-5 order-2 lg:order-1">
-                <span className="font-serif text-6xl lg:text-7xl font-semibold text-secondary/20">05</span>
-                <h2 className="font-serif text-2xl lg:text-3xl font-semibold text-primary mt-2 mb-6">
-                  Zapraszamy na kawę i&nbsp;wzorniki.
-                </h2>
-                <p className="text-text-muted leading-relaxed font-sans mb-4">
-                  Wybór frontów z&nbsp;katalogu to&nbsp;nie to samo, co&nbsp;dotknięcie
-                  struktury drewna czy sprawdzenie płynności szuflady na&nbsp;żywo.
-                  Odwiedź nas w&nbsp;warsztacie, zobacz proces produkcji
-                  i&nbsp;wybierz materiały przy dobrej kawie.
-                </p>
-                <p className="text-text-muted leading-relaxed font-sans mb-8">
-                  W&nbsp;naszej wzorcowni znajdziesz setki próbek oklein, płyt, blatów
-                  kompaktowych, spieków i&nbsp;okuć. Możesz przyjść sam lub ze&nbsp;swoim
-                  projektantem — doradzimy od&nbsp;strony technicznej, pokażemy próbki
-                  w&nbsp;naturalnym świetle i&nbsp;pomożemy podjąć decyzję.
-                </p>
+            <div className="max-w-3xl mx-auto text-center">
+              <span className="font-serif text-6xl lg:text-7xl font-semibold text-secondary/20">05</span>
+              <h2 className="font-serif text-2xl lg:text-3xl font-semibold text-primary mt-2 mb-6">
+                Zapraszamy na kawę i&nbsp;wzorniki.
+              </h2>
+              <p className="text-text-muted leading-relaxed font-sans mb-4">
+                Wybór frontów z&nbsp;katalogu to&nbsp;nie to samo, co&nbsp;dotknięcie
+                struktury drewna czy sprawdzenie płynności szuflady na&nbsp;żywo.
+                Odwiedź nas w&nbsp;warsztacie, zobacz proces produkcji
+                i&nbsp;wybierz materiały przy dobrej kawie.
+              </p>
+              <p className="text-text-muted leading-relaxed font-sans mb-8">
+                W&nbsp;naszej wzorcowni znajdziesz setki próbek oklein, płyt, blatów
+                kompaktowych, spieków i&nbsp;okuć. Możesz przyjść sam lub ze&nbsp;swoim
+                projektantem — doradzimy od&nbsp;strony technicznej, pokażemy próbki
+                w&nbsp;naturalnym świetle i&nbsp;pomożemy podjąć decyzję.
+              </p>
 
-                <div className="bg-surface-50 p-6 rounded-sm mb-6">
-                  <p className="font-serif text-sm font-semibold text-primary mb-1">
-                    D&B Pracownia Stolarska
-                  </p>
-                  <p className="text-sm text-text-muted font-sans">ul. Klonowa 2, 83-031 Cieplewo</p>
-                  <p className="text-sm text-text-muted font-sans">
-                    <a href="tel:+48504688396" className="text-secondary hover:underline">504 688 396</a>
-                    {" · "}
-                    <a href="mailto:biuro@db-pracowniastolarka.pl" className="text-secondary hover:underline">biuro@db-pracowniastolarka.pl</a>
-                  </p>
-                </div>
+              <div className="bg-surface-50 p-6 rounded-sm mb-8 inline-block text-left">
+                <p className="font-serif text-sm font-semibold text-primary mb-1">
+                  D&B Pracownia Stolarska
+                </p>
+                <p className="text-sm text-text-muted font-sans">ul. Klonowa 2, 83-031 Cieplewo</p>
+                <p className="text-sm text-text-muted font-sans">
+                  <a href="tel:+48504688396" className="text-secondary hover:underline">504 688 396</a>
+                  {" · "}
+                  <a href="mailto:biuro@db-pracowniastolarka.pl" className="text-secondary hover:underline">biuro@db-pracowniastolarka.pl</a>
+                </p>
+              </div>
 
+              <div>
                 <Link
                   href="/kontakt"
                   className="inline-flex items-center justify-center bg-secondary text-white font-sans text-sm font-medium px-8 py-4 rounded-sm hover:bg-secondary/90 transition-colors"
                 >
                   Umów wizytę w warsztacie
                 </Link>
-              </div>
-
-              <div className="lg:col-span-7 order-1 lg:order-2">
-                <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-surface-200 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <svg className="w-16 h-16 text-surface-300 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.41a2.25 2.25 0 013.182 0l2.909 2.91m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                    </svg>
-                    <p className="text-sm text-surface-400 font-sans">Zdjęcie wzorcowni — próbki materiałów przy kawie</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

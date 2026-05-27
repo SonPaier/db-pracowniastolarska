@@ -27,7 +27,7 @@ const usps = [
     number: "05",
     title: "Doświadczenie i zaufanie",
     description:
-      "Ponad 15 lat w branży stolarskiej i setki zrealizowanych projektów. Nasi klienci wracają i polecają nas dalej.",
+      "Ponad 10 lat w branży stolarskiej i setki zrealizowanych projektów. Nasi klienci wracają i polecają nas dalej.",
   },
   {
     number: "06",

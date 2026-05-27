@@ -1,6 +1,6 @@
 const stats = [
-  { value: "15+", label: "lat doświadczenia" },
-  { value: "500+", label: "zrealizowanych projektów" },
+  { value: "10", label: "lat doświadczenia" },
+  { value: "255+", label: "zrealizowanych projektów" },
   { value: "100%", label: "indywidualnych projektów" },
 ];
 
