@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Kontakt — D&B Pracownia Stolarska | Meble na Wymiar Gdańsk",
   description:
-    "Skontaktuj się z D&B Pracownią Stolarską. Bezpłatny pomiar i wycena mebli na wymiar w Gdańsku i Trójmieście. Tel. 504 688 396, biuro@db-pracowniastolarka.pl",
+    "Skontaktuj się z D&B Pracownią Stolarską. Bezpłatny pomiar i wycena mebli na wymiar w Gdańsku i Trójmieście. Tel. 504 688 396, biuro@db-pracowniastolarska.pl",
 };
 
 export default function KontaktPage() {
@@ -70,8 +70,8 @@ export default function KontaktPage() {
                     <p className="text-[0.65rem] uppercase tracking-[0.2em] text-secondary font-sans font-medium mb-3">
                       E-mail
                     </p>
-                    <a href="mailto:biuro@db-pracowniastolarka.pl" className="font-serif text-base font-semibold text-primary hover:text-secondary transition-colors break-all">
-                      biuro@db-pracowniastolarka.pl
+                    <a href="mailto:biuro@db-pracowniastolarska.pl" className="font-serif text-base font-semibold text-primary hover:text-secondary transition-colors break-all">
+                      biuro@db-pracowniastolarska.pl
                     </a>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ export default function KontaktPage() {
         {/* Mapa — full width */}
         <section className="relative w-full h-[50vh] lg:h-[60vh]">
           <iframe
-            src="https://www.google.com/maps?q=54.2494,18.6471&z=16&hl=pl&output=embed"
+            src="https://www.google.com/maps?q=D%26B+Pracownia+Stolarska,+Klonowa+2,+83-031+Cieplewo&z=16&hl=pl&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -155,7 +155,7 @@ export default function KontaktPage() {
               ul. Klonowa 2, 83-031 Cieplewo
             </p>
             <a
-              href="https://maps.google.com/?q=54.2494,18.6471"
+              href="https://maps.google.com/?q=D%26B+Pracownia+Stolarska,+Klonowa+2,+83-031+Cieplewo"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-xs font-medium text-secondary font-sans"
@@ -180,7 +180,7 @@ export default function KontaktPage() {
             alternateName: "Best-meble Manufaktura",
             url: "https://db-pracownia-stolarska.pl",
             telephone: "+48504688396",
-            email: "biuro@db-pracowniastolarka.pl",
+            email: "biuro@db-pracowniastolarska.pl",
             address: {
               "@type": "PostalAddress",
               streetAddress: "ul. Klonowa 2",
@@ -199,8 +199,8 @@ export default function KontaktPage() {
             ],
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 54.317,
-              longitude: 18.567,
+              latitude: 54.231497,
+              longitude: 18.652714,
             },
           }),
         }}

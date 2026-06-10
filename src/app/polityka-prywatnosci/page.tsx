@@ -86,7 +86,7 @@ export default function PolitykaPrywatnosciPage() {
             <h2 className="font-serif text-xl font-semibold text-primary mt-10 mb-4">8. Kontakt</h2>
             <p className="leading-relaxed mb-6">
               W sprawie danych osobowych prosimy o kontakt:<br />
-              E-mail: <a href="mailto:biuro@db-pracowniastolarka.pl" className="text-secondary hover:text-secondary/80 transition-colors">biuro@db-pracowniastolarka.pl</a><br />
+              E-mail: <a href="mailto:biuro@db-pracowniastolarska.pl" className="text-secondary hover:text-secondary/80 transition-colors">biuro@db-pracowniastolarska.pl</a><br />
               Adres: ul. Klonowa 2, 83-031 Cieplewo
             </p>
           </div>

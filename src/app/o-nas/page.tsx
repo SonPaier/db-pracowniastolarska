@@ -297,7 +297,7 @@ export default function ONasPage() {
                 <p className="text-sm text-text-muted font-sans">
                   <a href="tel:+48504688396" className="text-secondary hover:underline">504 688 396</a>
                   {" · "}
-                  <a href="mailto:biuro@db-pracowniastolarka.pl" className="text-secondary hover:underline">biuro@db-pracowniastolarka.pl</a>
+                  <a href="mailto:biuro@db-pracowniastolarska.pl" className="text-secondary hover:underline">biuro@db-pracowniastolarska.pl</a>
                 </p>
               </div>
 
@@ -348,7 +348,7 @@ export default function ONasPage() {
             alternateName: "Best-meble Manufaktura",
             url: "https://db-pracownia-stolarska.pl",
             telephone: "+48504688396",
-            email: "biuro@db-pracowniastolarka.pl",
+            email: "biuro@db-pracowniastolarska.pl",
             address: {
               "@type": "PostalAddress",
               streetAddress: "ul. Klonowa 2",

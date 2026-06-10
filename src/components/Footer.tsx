@@ -54,10 +54,10 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="mailto:biuro@db-pracowniastolarka.pl"
+                  href="mailto:biuro@db-pracowniastolarska.pl"
                   className="text-secondary-light hover:text-secondary transition-colors"
                 >
-                  biuro@db-pracowniastolarka.pl
+                  biuro@db-pracowniastolarska.pl
                 </a>
               </p>
             </address>
@@ -138,7 +138,7 @@ export default function Footer() {
             </h3>
             <div className="h-full min-h-[300px] rounded-sm overflow-hidden bg-primary-light">
               <iframe
-                src="https://maps.google.com/maps?q=54.2494,18.6471&z=15&hl=pl&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=D%26B+Pracownia+Stolarska,+Klonowa+2,+83-031+Cieplewo&z=15&hl=pl&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

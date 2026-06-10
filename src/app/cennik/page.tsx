@@ -240,7 +240,7 @@ export default function WycenaPage() {
               </div>
               <ContactForm variant="designer" />
               <p className="text-xs text-text-muted font-sans mt-4 text-center">
-                lub napisz na <a href="mailto:biuro@db-pracowniastolarka.pl" className="text-secondary hover:underline">biuro@db-pracowniastolarka.pl</a>
+                lub napisz na <a href="mailto:biuro@db-pracowniastolarska.pl" className="text-secondary hover:underline">biuro@db-pracowniastolarska.pl</a>
               </p>
             </div>
           </div>
