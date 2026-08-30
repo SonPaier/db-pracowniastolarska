@@ -1,8 +1,9 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
+import Lightbox from "./Lightbox";
 
 interface ImageCarouselProps {
   images: { src: string; alt: string }[];
@@ -10,6 +11,7 @@ interface ImageCarouselProps {
 
 export default function ImageCarousel({ images }: ImageCarouselProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
@@ -18,19 +20,33 @@ export default function ImageCarousel({ images }: ImageCarouselProps) {
     <div className="relative group">
       <div className="overflow-hidden rounded-sm" ref={emblaRef}>
         <div className="flex">
-          {images.map((img) => (
-            <div key={img.src} className="flex-[0_0_100%] min-w-0 relative aspect-[16/10]">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 80vw"
-              />
+          {images.map((img, i) => (
+            <div key={img.src} className="flex-[0_0_100%] min-w-0">
+              <button
+                type="button"
+                onClick={() => setOpenIndex(i)}
+                aria-label={`Powiększ zdjęcie: ${img.alt}`}
+                className="relative block w-full aspect-[16/10] cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-inset"
+              >
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 80vw"
+                />
+              </button>
             </div>
           ))}
         </div>
       </div>
+
+      <Lightbox
+        images={images}
+        index={openIndex}
+        onClose={() => setOpenIndex(null)}
+        onIndexChange={setOpenIndex}
+      />
 
       {/* Prev */}
       <button

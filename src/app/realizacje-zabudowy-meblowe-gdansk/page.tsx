@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
+import PhotoGallery from "@/components/PhotoGallery";
 import Footer from "@/components/Footer";
 
 export const metadata = {
@@ -167,19 +168,7 @@ export default function RealizacjePage() {
             <h2 className="font-serif text-2xl lg:text-3xl font-semibold text-primary mb-8">
               Galeria realizacji
             </h2>
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-              {galleryImages.map((img) => (
-                <div key={img.src} className="relative aspect-[4/3] rounded-sm overflow-hidden group">
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 768px) 50vw, 33vw"
-                  />
-                </div>
-              ))}
-            </div>
+            <PhotoGallery images={galleryImages} />
           </div>
         </section>
 

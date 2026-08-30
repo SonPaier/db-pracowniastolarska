@@ -175,7 +175,7 @@ export default function NoweKolibkiPage() {
                 <p className="text-text-muted leading-relaxed font-sans mb-4">
                   Drzwi wewnętrzne zaprojektowane w&nbsp;stylu eklysy sięgają od&nbsp;podłogi
                   aż po&nbsp;sufit — bez widocznych ościeżnic, wtopione w&nbsp;fornirowane panele
-                  ścienne. Efekt: drzwi „znikają" w&nbsp;ścianie, zachowując czystość linii
+                  ścienne. Efekt: drzwi &bdquo;znikają&rdquo; w&nbsp;ścianie, zachowując czystość linii
                   i&nbsp;japońską estetykę całej przestrzeni.
                 </p>
                 <p className="text-text-muted leading-relaxed font-sans">
@@ -276,7 +276,7 @@ export default function NoweKolibkiPage() {
                 <p className="text-text-muted leading-relaxed font-sans">
                   Zwieńczenia szaf i&nbsp;detale w&nbsp;stylu japońskich połączeń drewnianych
                   (kumiko) nadają zabudowie unikalny, rzemieślniczy charakter. Fornirowane
-                  ściany i&nbsp;sufity w&nbsp;sypialniach dopełniają efekt „drewnianego kokonu"
+                  ściany i&nbsp;sufity w&nbsp;sypialniach dopełniają efekt &bdquo;drewnianego kokonu&rdquo;
                   — spokojnej przestrzeni do&nbsp;odpoczynku.
                 </p>
               </div>

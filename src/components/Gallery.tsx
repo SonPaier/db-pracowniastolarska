@@ -1,13 +1,18 @@
-import Image from "next/image";
 import Link from "next/link";
+import GalleryCarousel from "./GalleryCarousel";
 
 const galleryImages = [
-  { src: "/realizacje/realizacje-3.webp", alt: "Tarasy Bałtyku — kuchnia, widok ogólny" },
-  { src: "/realizacje/box-oferta-kuchnia.webp", alt: "Kuchnia — detale frontów" },
+  { src: "/realizacje/pogorze-gdynia/kuchnia-na-wymiar-gdynia-widok-ogolny.webp", alt: "Kuchnia na wymiar Gdynia — wyspa z blatem kamiennym i zabudowa do sufitu" },
+  { src: "/realizacje/dom-matemblewo/salon-z-kuchnia-sufit-kasetonowy-debowy.webp", alt: "Salon z kuchnią pod dębowym sufitem kasetonowym — dom w stylu angielskim, Gdańsk Matemblewo" },
+  { src: "/realizacje/realizacje-3.webp", alt: "Tarasy Bałtyku — kuchnia na wymiar, widok ogólny" },
+  { src: "/realizacje/dom-matemblewo/kuchnia-w-stylu-angielskim-niebieskie-fronty.webp", alt: "Kuchnia w stylu angielskim z niebieskimi frontami płycinowymi" },
+  { src: "/realizacje/pogorze-gdynia/garderoba-walk-in-na-wymiar-gdynia.webp", alt: "Garderoba walk-in na wymiar — Gdynia" },
   { src: "/realizacje/garderoba-1.webp", alt: "Garderoba walk-in z systemem organizacji" },
+  { src: "/realizacje/pogorze-gdynia/lazienka-na-wymiar-gdynia-fornir-ciemny.webp", alt: "Łazienka na wymiar Gdynia — ciemna zabudowa fornirowana" },
   { src: "/realizacje/azienka-8.webp", alt: "Łazienka główna — ciemna zabudowa" },
+  { src: "/realizacje/dom-matemblewo/drzwi-dwuskrzydlowe-debowe-plycinowe.webp", alt: "Drzwi dwuskrzydłowe dębowe z płycinami — dom w stylu angielskim" },
+  { src: "/realizacje/pogorze-gdynia/przedpokoj-komoda-fornirowana-gdynia.webp", alt: "Przedpokój — komoda fornirowana z blatem kamiennym, Gdynia" },
   { src: "/realizacje/lazienka-i-wc-4.webp", alt: "Łazienka gościnna — jasne drewno" },
-  { src: "/realizacje/drzwi-wewnetrzne-fornirowane-9.webp", alt: "Drzwi fornirowane — detal" },
 ];
 
 export default function Gallery() {
@@ -29,23 +34,8 @@ export default function Gallery() {
           </p>
         </div>
 
-        {/* Photo gallery */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-          {galleryImages.map((img) => (
-            <div
-              key={img.src}
-              className="relative aspect-[4/3] rounded-sm overflow-hidden group"
-            >
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                sizes="(max-width: 768px) 50vw, 33vw"
-              />
-            </div>
-          ))}
-        </div>
+        {/* Karuzela zdjęć — kliknięcie powiększa */}
+        <GalleryCarousel images={galleryImages} />
 
         {/* CTA */}
         <div className="mt-12 text-center">

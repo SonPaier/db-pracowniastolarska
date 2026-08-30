@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import ImageCarousel from "@/components/ImageCarousel";
 import Footer from "@/components/Footer";
 
 export const metadata = {
@@ -137,13 +136,8 @@ export default function TarasyBaltykuPage() {
                 </p>
               </div>
               <div className="lg:col-span-7 order-1 lg:order-2">
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
-                    <Image src="/realizacje/box-oferta-kuchnia.webp" alt="Kuchnia Tarasy Bałtyku — fronty lakierowane" fill className="object-cover" sizes="35vw" />
-                  </div>
-                  <div className="relative aspect-[3/4] rounded-sm overflow-hidden mt-8">
-                    <Image src="/realizacje/realizacje-db-5.webp" alt="Kuchnia Tarasy Bałtyku — detale" fill className="object-cover" sizes="35vw" />
-                  </div>
+                <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
+                  <Image src="/realizacje/realizacje-db-5.webp" alt="Kuchnia Tarasy Bałtyku — detale frontów i blatu" fill className="object-cover" sizes="60vw" />
                 </div>
               </div>
             </div>
@@ -215,13 +209,8 @@ export default function TarasyBaltykuPage() {
                   </p>
                 </div>
                 <div className="lg:col-span-7">
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
-                      <Image src="/realizacje/azienka-8.webp" alt="Łazienka główna — ciemna zabudowa" fill className="object-cover" sizes="30vw" />
-                    </div>
-                    <div className="relative aspect-[3/4] rounded-sm overflow-hidden mt-8">
-                      <Image src="/realizacje/lazienka-i-wc-4.webp" alt="Łazienka gościnna — jasne drewno" fill className="object-cover" sizes="30vw" />
-                    </div>
+                  <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
+                    <Image src="/realizacje/azienka-8.webp" alt="Łazienka główna — ciemna zabudowa pod umywalkę z frontem fornirowanym" fill className="object-cover" sizes="60vw" />
                   </div>
                 </div>
               </div>
@@ -254,13 +243,8 @@ export default function TarasyBaltykuPage() {
                 </p>
               </div>
               <div className="lg:col-span-7 order-1 lg:order-2">
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
-                    <Image src="/realizacje/drzwi-wewnetrzne-fornirowane-9.webp" alt="Drzwi fornirowane — detal" fill className="object-cover" sizes="35vw" />
-                  </div>
-                  <div className="relative aspect-[3/4] rounded-sm overflow-hidden mt-8">
-                    <Image src="/realizacje/panele-scienne-fornirowane-8.webp" alt="Panele ścienne fornirowane dąb" fill className="object-cover" sizes="35vw" />
-                  </div>
+                <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
+                  <Image src="/realizacje/drzwi-wewnetrzne-fornirowane-9.webp" alt="Drzwi ukryte fornirowane wtopione w panele ścienne — Tarasy Bałtyku" fill className="object-cover" sizes="60vw" />
                 </div>
               </div>
             </div>
@@ -281,7 +265,7 @@ export default function TarasyBaltykuPage() {
                 prac pozostałych ekip.
               </p>
               <p className="text-text-muted leading-relaxed font-sans mb-4">
-                Przyjęliśmy model "stolarz jako koordynator" — przejmując odpowiedzialność
+                Przyjęliśmy model &ldquo;stolarz jako koordynator&rdquo; — przejmując odpowiedzialność
                 za&nbsp;harmonogram i&nbsp;komunikację między ekipami. Cotygodniowe spotkania
                 na&nbsp;budowie, wspólne pomiary kontrolne i&nbsp;elastyczność w&nbsp;kolejności
                 montażu pozwoliły zamknąć projekt w&nbsp;7&nbsp;tygodni — zgodnie z&nbsp;planem.
@@ -319,27 +303,6 @@ export default function TarasyBaltykuPage() {
                 Opinia Google — Lokalny przewodnik
               </p>
             </div>
-          </div>
-        </section>
-
-        {/* Karuzela zdjęć */}
-        <section className="section-padding bg-surface-50">
-          <div className="container-editorial">
-            <h2 className="font-serif text-2xl lg:text-3xl font-semibold text-primary mb-8">
-              Więcej zdjęć
-            </h2>
-            <ImageCarousel
-              images={[
-                { src: "/realizacje/realizacje-3.webp", alt: "Tarasy Bałtyku — kuchnia, widok ogólny" },
-                { src: "/realizacje/box-oferta-kuchnia.webp", alt: "Kuchnia — detale frontów" },
-                { src: "/realizacje/garderoba-1.webp", alt: "Garderoba walk-in z systemem organizacji" },
-                { src: "/realizacje/azienka-8.webp", alt: "Łazienka główna — ciemna zabudowa" },
-                { src: "/realizacje/lazienka-i-wc-4.webp", alt: "Łazienka gościnna — jasne drewno" },
-                { src: "/realizacje/drzwi-wewnetrzne-fornirowane-9.webp", alt: "Drzwi fornirowane — detal" },
-                { src: "/realizacje/panele-scienne-fornirowane-8.webp", alt: "Panele ścienne fornirowane" },
-                { src: "/realizacje/sufity-fornirowane-w-stylu-japonskim-6.webp", alt: "Sufit fornirowany — styl japoński" },
-              ]}
-            />
           </div>
         </section>
 
