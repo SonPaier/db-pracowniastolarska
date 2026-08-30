@@ -71,6 +71,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: `${baseUrl}/realizacje-zabudowy-meblowe-gdansk/dom-w-stylu-angielskim-gdansk-matemblewo`,
+      lastModified: "2026-08-30",
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/realizacje-zabudowy-meblowe-gdansk/nowe-kolibki-gdynia-orlowo`,
+      lastModified: "2026-04-01",
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/stolarz-wspolpraca-z-projektantami-gdansk`,
       lastModified: "2026-04-01",
       changeFrequency: "monthly",
@@ -99,6 +111,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: "2026-04-01",
       changeFrequency: "monthly",
       priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/polityka-prywatnosci`,
+      lastModified: "2026-04-01",
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${baseUrl}/polityka-cookies`,
+      lastModified: "2026-04-01",
+      changeFrequency: "yearly",
+      priority: 0.2,
     },
   ];
 }

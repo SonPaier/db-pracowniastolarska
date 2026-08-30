@@ -409,10 +409,10 @@ export default function NoweKolibkiPage() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { href: "/szafy-na-wymiar-gdynia", title: "Szafy na wymiar", city: "Gdynia" },
-                { href: "/kuchnie-na-wymiar-gdynia", title: "Kuchnie na wymiar", city: "Gdynia" },
+                { href: "/szafy-na-wymiar-gdansk", title: "Szafy na wymiar", city: "Trójmiasto" },
+                { href: "/kuchnie-na-wymiar-gdansk", title: "Kuchnie na wymiar", city: "Trójmiasto" },
                 { href: "/meble-lazienkowe-na-wymiar-gdansk", title: "Meble łazienkowe", city: "Trójmiasto" },
-                { href: "/panele-sufitowe-gdansk", title: "Panele sufitowe", city: "Trójmiasto" },
+                { href: "/panele-sufitowe-na-wymiar-gdansk", title: "Panele sufitowe", city: "Trójmiasto" },
               ].map((s) => (
                 <Link
                   key={s.href}
